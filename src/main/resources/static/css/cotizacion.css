@@ -1,0 +1,109 @@
+#lateral{
+    
+    top:15%;
+    width:27.7%;
+    height:79%; 
+    position: absolute;
+    padding-left:50px;
+    background-color:highlight;
+    color:black;
+    left:70%;
+    
+}
+
+#contenido{
+    
+    position:absolute;
+    top:15%;
+    left:0%;
+    height: 79%;
+    width: 70%;
+    background-color:aliceblue;
+    color:black;
+    padding-left: 15px;
+    overflow: auto;  
+    text-align: center;
+    
+}
+
+#encabezado{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15%;
+    width: 100%;
+    background-color:beige;
+    color: black;
+    padding-left: 15px;
+}
+#piePagina{
+    
+    display: inline;
+    
+}
+#piePagina{
+    
+    position:absolute;
+    bottom: 0;
+    left:0;
+    height: 8%;
+    width: 100%;
+    background-color:antiquewhite;
+    color:black;
+    padding-left: 15px;
+    text-align:center; 
+    
+}
+
+
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin:0 auto;
+    
+}
+
+.nav-link{
+    
+    color:black;
+    text-decoration: none;
+    
+    
+}
+.logo{
+    
+   font-size: 30px;
+   font-weight: bold;
+   padding:0 80px;
+   line-height: 100px
+}
+
+.nav-menu{
+    
+    display:flex;
+    margin-right: 40px;
+    
+    
+}
+.nav-menu-item{
+    
+    font-size:18px;
+    margin:0 10px;
+    line-height: 90px;
+    width: max-content;
+}
+
+.nav-menu-link{
+    
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+
+.nav-menu-link:hover{
+    background-color:grey;
+    transition: 0.7s;
+    
+}
